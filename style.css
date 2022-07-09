@@ -1,0 +1,709 @@
+/* ---------------------------------home page style------------------------------------------*/
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+.logo img{
+    position:absolute;
+    width: 20vw;
+    height: 35vh;
+    margin-top: -4rem;
+    margin-left: -1rem;
+}
+
+.nav-links{
+    position: absolute;
+    
+}
+
+.nav-links li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 2.3rem;
+    display: block;
+    margin-left: 41rem;
+    margin-right: -38rem;
+    
+}
+
+.nav-links li a:hover{
+    color: gold;
+    transition: all 0.3s ease-out;
+    font-size: 1.5rem;
+}
+
+.bgimg img{
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.wearetext{
+    font-family: 'Courgette', cursive;
+    color: rgb(92, 255, 114);
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 9rem;
+    font-size: 7rem;
+}
+
+.material-symbols-outlined{
+    color: rgb(154, 252, 136);
+    position: absolute;
+    font-size: 55rem;
+    margin-bottom: 5rem;
+    margin-left: 67rem;
+    margin-top: 15rem;
+}
+
+.material-symbols-outlined.md-48 { font-size: 58px; }
+
+
+@media (max-width: 1000px) {
+
+    .wearetext{
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .wearetext{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .wearetext{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .wearetext{
+        font-size: 1rem;
+    }
+
+}
+.rightarrow{
+  font-size: 2.1rem;
+}
+footer{
+  background-color: black;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: white;
+  justify-content: center;
+  margin-left: 25rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  
+}
+
+footer img{
+  width: 3rem;
+  height: auto;
+  margin-left: 2rem;
+  margin-right: -1rem;
+  margin-top: -1.51rem;
+}
+
+footer img:hover{
+  transform: scale(1.11);
+  transition: all 0.3s ease;
+}
+
+
+
+/* -----------------our midels style--------------------------- */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  } */
+
+  .bodyom{
+    background-color: black;
+  }
+  
+  .main-container {
+    padding: 30px;
+  }
+  
+  /* HEADING */
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading__title {
+    font-weight: 600;
+    color: white;
+  }
+  
+  .heading__credits {
+    margin: 10px 0px;
+    color: white;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+  
+  .heading__link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .heading__credits .heading__link {
+    color: inherit;
+  }
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    /* width: 70vw; */
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+
+  .card.card-1m{
+    width: 80vw;
+  }
+  .card.card-2m{
+    width: 80vw;
+  }
+  
+  .card.card-1m:hover {
+    box-shadow: 6px 6px 6px #fa99b2  ;
+    transform: scale(1.07);
+  }
+
+  .card.card-2m:hover {
+    box-shadow: 6px 6px 6px   #faff9f;
+    transform: scale(1.07);
+  }
+  
+  .card__link,
+  .card__exit,
+  .card__icon {
+    font-size: 1.5rem;
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: all 0.5s;
+  }
+  
+  .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #000000;
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+  
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1m {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+  
+  .card-2m {
+    background: radial-gradient(#faff9f, #faff9f);
+  }
+  
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+
+  /* -------------about us style --------------------------- */
+  
+  .bodyau{
+    background-color: black;
+  }
+
+  
+  
+  .titleteams{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: -70px;
+    /* margin-bottom: 150px; */
+    color: crimson;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .titleteams2{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 37rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card1{
+    width: 30%;
+    height: 75vh;
+    display: inline-block;
+    margin-bottom: 11px;
+    margin-left: 6rem;
+    margin-right: 5rem;
+  }
+  
+  .card2{
+    width: 30%;
+    height: 75vh;
+    display: inline-block;
+    margin-bottom: 11px;
+    margin-left: 6rem;
+    margin-right: 5rem;
+  }
+  
+  .teams .carousel .card1{
+      background: #76f981;
+      border: 3px solid #91f9fb;
+      border-radius: 6px;
+      padding: 25px 35px;
+      text-align: center;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      
+  }
+  .teams .carousel .card1:hover{
+      background: #91f9fb;
+      transform: scale(1.05);
+      transition: all 0.3s ease;
+  }
+  
+  .teams .carousel .card2{
+    background: #91f9fb;
+    border: 3px solid  #76f981;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    
+  }
+  .teams .carousel .card2:hover{
+    background: #76f981;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  .teams .carousel .card .box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+  }
+  .teams .carousel .card:hover .box{
+      transform: scale(1.05);
+  }
+  .teams .carousel .card1 .text{
+      color: rgb(0, 0, 0) ;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 2rem;
+  }
+  .teams .carousel .card1:hover .text{
+    color: black;
+  }
+  
+  .teams .carousel .card2 .text{
+    color: black ;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+  .teams .carousel .card2:hover .text{
+  color: rgb(1, 1, 1);
+  }
+  
+  .teams .carousel .card1 p{
+    color: rgb(0, 0, 0);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .teams .carousel .card1:hover p{
+    color: black;
+  }
+  
+  .teams .carousel .card2 p{
+    color: black;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .teams .carousel .card2:hover p{
+    color: rgb(0, 0, 0);
+  }
+  .teams .carousel .card1 img{
+      height: 30vh;
+      width: 15vw;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #91f9fb;
+      transition: all 0.3s ease;
+  }
+  .teams .carousel .card1:hover img{
+      border-color: crimson;
+  }
+  
+  .teams .carousel .card2 img{
+    height: 30vh;
+      width: 15vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #76f981;
+    transition: all 0.3s ease;
+  }
+  .teams .carousel .card2:hover img{
+    border-color: crimson;
+  }
+  .owl-dots{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .owl-dot{
+      height: 13px;
+      width: 13px;
+      margin: 0 5px;
+      outline: none!important;
+      border-radius: 50%;
+      border: 2px solid rgb(255, 255, 255)!important;
+      transition: all 0.3s ease;
+  }
+  .owl-dot.active{
+      width: 35px;
+      border-radius: 14px;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+      background: crimson!important;
+  }
+  
+  .card1{
+    height: 27rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+
+  .card2{
+    height: 27rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+  .card1 .btn{
+    background-color: white;
+    color: crimson;
+    border: 7px solid white;
+    margin-top: 4rem;
+    border-radius: 15%;
+  }
+  .card1:hover .btn{
+    background-color: crimson;
+    color: white;
+    border: 7px solid crimson;
+  }
+  
+  .card2 .btn{
+    background-color: crimson;
+    color: white;
+    border: 7px solid crimson;
+    margin-top: 4rem;
+    border-radius: 15%;
+  }
+  .card2:hover .btn{
+    background-color: white;
+    color: crimson;
+    border: 7px solid white;
+  }
+  
+
+  /* -----------------contact us style--------------- */
+
+
+  /* .bodycu{
+    background-color: black;
+  } */
+
+  .cuh1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 37rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: white;
+  }
+
+  iframe{
+    display: flex;
+    margin-left: 45rem;
+    border-radius: 7%;
+    margin-top: -24rem;
+  }
+  
+
+  iframe:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+
+  .cuh2{
+    margin-left: 1.5rem;
+    margin-bottom: -3rem;
+    font-size: 1.5rem;
+    font-family:'Ubuntu', sans-serif;
+    color: white;
+  }
+
+  .emailp{
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    color: #91f9fb;
+  }
+
+  .phonep{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    color:  #91f9fb;
+  }
+
+  .emails{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    color:  whitesmoke;
+  }
+  .phones{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    color: whitesmoke;
+  }
+
+  .alltext{
+    margin-top: 3rem;
+  }
+
+  /* ----------------------more style-------------------------- */
+
+  
+  .main-container {
+    padding: 30px;
+  }
+  
+  /* HEADING */
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading__title {
+    font-weight: 600;
+  }
+  
+  .heading__credits {
+    margin: 10px 0px;
+    color: white;
+    font-size: 2.5rem;
+    transition: all 0.5s;
+    font-family:'Ubuntu', sans-serif;
+  }
+  
+  .heading__link {
+    text-decoration: none;
+  }
+  
+  .heading__credits .heading__link {
+    color: inherit;
+  }
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+  }
+  
+  .card__link,
+  .card__exit,
+  .card__icon {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family:'Ubuntu', sans-serif;
+  }
+  
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: all 0.5s;
+  }
+  
+  .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: black;
+    font-family:'Ubuntu', sans-serif;
+  }
+  
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+  
+  .card-2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+  
+  .card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+  }
+  
+  .card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+  
+
+  

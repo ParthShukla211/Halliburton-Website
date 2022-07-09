@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Datasets</title>
+    <link rel="stylesheet" href="more.css">
+</head>
+<body style="background-color: black;">
+
+    <h1 class="h1ad">About Datasets</h1>
+
+
+    <div class="allinfo">
+
+        <p class="aitext">This package contains the LUCAS Topsoil data of the 2015 LUCAS soil survey. It contains a CSV andExcel filewith soil data,and anESRIshapefile that shows the LUCAS Master Grid sampling points and an associated attribute table that holds the soil data.
+        <br>
+        <br>
+        The Excel file includesthe analytical data of samples that passed the data evaluation. The file contains the identification code “Point_ID”of the samples and data of physical and chemical properties for each sample.
+        <br>
+        <br>
+        Note that there are 21,859 points, of which 4,246 are at new locations when compared with the 2009/2012 campaigns.</p>
+
+        <div class="allimg">
+
+        <div class="adimg">
+            <img src="/table.png" alt="">
+        </div>
+
+        <div class="adimg2">
+            <img src="/table2.png" alt="">
+        </div>
+    </div>
+
+        Please note that for carbonates, values below the limit of detection (including the zero value)indicate that the content of carbonates in the sample is negligible. In the case of P, contents below 10 mg/kg (the limit of detection) could not be quantified with enough uncertainty in the samples by the laboratory. It is up to each user to decide which samples should be omitted from their studies because their P contents were well belowthe limit of detection.
+        <br>
+        <br>
+        In order to find the connection between the LUCAS 2015 topsoil data and general LUCAS 2015 campaign data, you need to use the Point_IDvalues.
+        <br>
+        <br>
+        This point shapefile has been derived using the theoretical coordinates for the soil sampling points; these coordinates are explicitly part of the Eurostat LUCAS 2015 campaign microdata. The attribute table of the shapefile contains the following attributes: Point_ID, Coarse, Clay, Sand, Silt, pH_CaCl2, pH_H20, EC, OC, CaCO3, P, N,	K, LC, LU, NUTS_0, NUTS_1, NUTS_2, NUTS_3, LC0_Desc, LC1_Desc, LU1_Desc
+        <br>
+        <br>
+        LC corresponds to the LC1 field of the Excel file; LU corresponds to the LU1 field of the Excel file; LC0_Desc is a description of the main group of Land Cover with following possible classes:
+        <br>
+        <br>
+        (A00) artificial land <br>
+        (B00) cropland <br>
+        (C00) woodland <br>
+        (D00) shrubland <br>
+        (E00) grassland <br>
+        (F00) bare land <br>
+        (G00) water <br>
+        (H00) wetland
+        <br>
+        <br>
+        Note that this field is not actually part of the Eurostat microdata.
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

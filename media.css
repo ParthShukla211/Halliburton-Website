@@ -1,0 +1,142 @@
+/* our models media */
+
+@media (max-width: 700px) {
+
+    .bodyom{
+        height: 100vh;
+    }
+
+    
+
+}
+
+
+@media (max-width: 400px) {
+
+    .bodyom{
+        height: 100vh;
+    }
+
+    
+
+}
+
+/* about us media */
+
+@media (max-width: 1200px) {
+
+    .card1{
+        width: 25%;
+        height: 75vh;
+        display: inline-block;
+        margin-bottom: 11px;
+        margin-left: 6rem;
+        margin-right: 5rem;
+      }
+      
+      .card2{
+        width: 25%;
+        height: 75vh;
+        display: inline-block;
+        margin-bottom: 11px;
+        margin-left: 6rem;
+        margin-right: 5rem;
+      }
+
+    
+
+}
+
+
+@media (max-width: 700px) {
+
+    .titleteams2{
+        font-size: 2rem;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 17.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+    .card1{
+        width: 60%;
+        height: 75vh;
+        display: inline-block;
+        margin-bottom: 11px;
+        margin-left: 6rem;
+        margin-right: 5rem;
+      }
+      
+      .card2{
+        width: 60%;
+        height: 75vh;
+        display: inline-block;
+        margin-bottom: 11px;
+        margin-left: 6rem;
+        margin-right: 5rem;
+      }
+
+      .teams .carousel .card1 img{
+        height: 30vh;
+        width: 30vw;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #91f9fb;
+        transition: all 0.3s ease;
+    }
+    
+    .teams .carousel .card2 img{
+      height: 30vh;
+        width: 30vw;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #76f981;
+      transition: all 0.3s ease;
+    }
+
+    
+
+    
+
+}
+
+@media (max-width: 450px) {
+
+    .teams .carousel .card1 img{
+        height: 30vh;
+        width: 50vw;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #91f9fb;
+        transition: all 0.3s ease;
+    }
+    
+    .teams .carousel .card2 img{
+      height: 30vh;
+        width: 50vw;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #76f981;
+      transition: all 0.3s ease;
+    }
+
+}
+
+/* contact us media */
+
+
+@media (max-width: 450px) {
+
+    iframe{
+        margin-top: 15rem;
+        margin-left: 2rem;
+    }
+
+    .cuh1{
+        margin-left: 7rem;
+    }
+
+
+}
+

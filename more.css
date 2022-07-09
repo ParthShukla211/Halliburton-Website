@@ -1,0 +1,226 @@
+/* ------------------model workflow---------------------- */
+.h1wf{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: -6.9rem; */
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2.7rem;
+    margin-bottom: 3rem;
+}
+
+.wfimg img{
+    width: 100vw;
+    height: auto;
+}
+
+/* -----------data visualizations-------------- */
+
+
+
+.h1dv{
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.carddv {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 3%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .carddv:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .carddv:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .containerdv {
+    padding: 2px 16px;
+  }
+
+  .h4dv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .carddv img{
+    border-radius: 3%;
+    height: 311px;
+  }
+
+  .ppdownloadbtn a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color:azure  ;
+    padding: 7px ;
+    border-radius: 15px;
+    width: 13.3%;
+    display: flex;
+    margin-bottom: 5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    position: fixed;
+
+    margin-left: 67rem;
+    margin-top: 27rem;
+  }
+
+  .expandbtn p{
+    position: fixed;
+    color: rgb(255, 28, 28);
+
+    margin-left: 78rem;
+    margin-top: 24rem; 
+
+  }
+
+  .ppdownloadbtn :hover{
+    /* right: 20px; */
+    color: black;
+    background-color: white;
+    border: white;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+  }
+
+  .expandbtn p:hover ~ .ppdownloadbtn {
+
+    z-index: -999;
+
+    color: blue;
+
+    left: 50px;
+
+  }
+
+
+  .button {
+    font-size: 1.5rem;
+    background-color: rgb(251, 255, 124);
+    color: rgb(7, 3, 3);
+    text-decoration: none;
+    border-radius: 60px;
+    height: 41px;
+    display: inline-flex;
+    align-items: center;
+    overflow:hidden;
+    width: auto;
+    max-width: 51px; /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+    -webkit-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+    position: fixed;
+    margin-top: 27rem;
+    margin-left: 1rem;
+  }
+  
+  .button:hover {
+    max-width: 300px;
+
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  .icon {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    margin-right: 9px;
+    padding: 10px 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .text {
+    font-family: 'Ubuntu', sans-serif;
+    white-space: nowrap;
+    padding-right: 15px;
+  }
+
+
+  /* ------------about datasets------------------------------ */
+
+  .h1ad{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .allinfo{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1.3rem;
+    /* display: flex; */
+  }
+
+  .aitext{
+    display: block;
+  }
+
+  .allimg{
+    display: flex;
+    margin-left: 2rem;
+  }
+
+  .adimg img{
+    width: 40vw;
+    height: 65vh;
+    margin-top: 3rem ;
+    margin-left: 1.5rem;
+    border-radius: 1%;
+    margin-bottom: 3rem;
+    display: flex;
+    
+  }
+
+  .adimg2 img{
+    display: flex;
+    width: 40vw;
+    margin-top: 3rem ;
+    margin-left: 1.5rem;
+    border-radius: 1%;
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+    height: 45vh;
+    
+  }
+
+
+  .adimg img:hover{
+    transform: scale(1.07);
+    transition: all 0.4s ease;
+  }
+
+  .adimg2 img:hover{
+    transform: scale(1.07);
+    transition: all 0.4s ease;
+  }
