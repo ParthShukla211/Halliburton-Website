@@ -162,6 +162,35 @@
   }
 
 
+/* ------------advance data visualizations style */
+
+  iframe{
+    width: 40%;
+    height: 25rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 15px;
+  }
+
+  iframe:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+
+  #latlongmap{
+
+    width: 90%;
+    height: 31rem;
+
+  }
+
+  #latlongmap:hover{
+    transform: scale(1.07);
+  }
+
+
+
+
   /* ------------about datasets------------------------------ */
 
   .h1ad{
